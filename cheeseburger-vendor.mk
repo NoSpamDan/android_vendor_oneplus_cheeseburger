@@ -1469,3 +1469,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+PRODUCT_PACKAGES += \
+    dashd \
+    libdsi_netctrl \
+    libgpustats \
+    libqmi_cci \
+    libqmi_common_so \
+    libqmiservices
+
